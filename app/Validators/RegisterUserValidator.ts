@@ -37,7 +37,8 @@ export default class RegisterUserValidator {
       rules.required(),
       rules.minLength(4)
     ])
-  /**
+  })
+  /*
    * Custom messages for validation failures. You can make use of dot notation `(.)`
    * for targeting nested fields and array expressions `(*)` for targeting all
    * children of an array. For example:
